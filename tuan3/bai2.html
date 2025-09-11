@@ -9,7 +9,7 @@
 
 <body>
   <h1>Nhập thông tin sinh viên</h1>
-  <form action="bai1-action.php" method="post" style="display: flex; flex-direction: column; gap: 10px;">
+  <form action="bai2-action.php" method="post" style="display: flex; flex-direction: column; gap: 10px;">
     <div>
       <label for="mssv">MSSV: </label>
       <input type="text" name="mssv">
@@ -24,16 +24,18 @@
       <span>Giới tính: </span>
       <label for="gioiTinh">Nam</label>
       <input type="radio" name="gioiTinh" value="male">
+      <span>, </span>
       <label for="gioiTinh">Nữ</label>
       <input type="radio" name="gioiTinh" value="female">
     </div>
 
     <div>
       <span>Ngôn ngữ lập trình: </span>
-      <label for="programming_language[]">C++</label>
-      <input type="checkbox" name="programming_language[]" value="C++">
-      <label for="programming_language[]">PHP</label>
-      <input type="checkbox" name="programming_language[]" value="PHP">
+      <label for="programming_languages[]">C++</label>
+      <input type="checkbox" name="programming_languages[]" value="C++">
+      <span>, </span>
+      <label for="programming_languages[]">PHP</label>
+      <input type="checkbox" name="programming_languages[]" value="PHP">
     </div>
 
     <div>

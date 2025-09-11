@@ -1,0 +1,11 @@
+{
+  "print array": {
+    "prefix": "printarr",
+    "body": [
+      "echo \"<pre>\";",
+      "print_r($0);",
+      "echo \"</pre>\";"
+    ],
+    "description": "print array"
+  }
+}
