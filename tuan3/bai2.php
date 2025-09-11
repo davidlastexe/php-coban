@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 2</title>
+</head>
+
+<body>
+  <h1>Nhập thông tin sinh viên</h1>
+  <form action="bai1-action.php" method="post" style="display: flex; flex-direction: column; gap: 10px;">
+    <div>
+      <label for="mssv">MSSV: </label>
+      <input type="text" name="mssv">
+    </div>
+
+    <div>
+      <label for="fullName">Họ Tên: </label>
+      <input type="text" name="fullName">
+    </div>
+
+    <div>
+      <span>Giới tính: </span>
+      <label for="gioiTinh">Nam</label>
+      <input type="radio" name="gioiTinh" value="male">
+      <label for="gioiTinh">Nữ</label>
+      <input type="radio" name="gioiTinh" value="female">
+    </div>
+
+    <div>
+      <span>Ngôn ngữ lập trình: </span>
+      <label for="programming_language[]">C++</label>
+      <input type="checkbox" name="programming_language[]" value="C++">
+      <label for="programming_language[]">PHP</label>
+      <input type="checkbox" name="programming_language[]" value="PHP">
+    </div>
+
+    <div>
+      <label for="country">Thành phố: </label>
+      <select name="country">
+        <option value="hanoi">Hà Nội</option>
+        <option value="hochiminh">Hồ Chi Minh</option>
+        <option value="vungtau">Vũng Tàu</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="message">Tin nhắn:</label>
+      <div>
+        <textarea name="message"></textarea>
+      </div>
+    </div>
+
+    <button type="submit" style="width: fit-content;">Gửi</button>
+  </form>
+</body>
+
+</html>
