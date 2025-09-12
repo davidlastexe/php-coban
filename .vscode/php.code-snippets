@@ -1,6 +1,6 @@
 {
   "print array": {
-    "prefix": "printarr",
+    "prefix": "parr",
     "body": [
       "echo \"<pre>\";",
       "print_r($0);",
