@@ -4,9 +4,6 @@
 			"path": "."
 		},
 		{
-			"path": "../../opt/lampp/htdocs/webphp"
-		},
-		{
 			"path": "../../opt/lampp/htdocs/manager_course"
 		}
 	],
