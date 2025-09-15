@@ -1,11 +1,18 @@
 {
-  "print array": {
-    "prefix": "parr",
+  "Print Array": {
+    "prefix": "printr",
+    "body": ["echo \"<pre>\";", "print_r($0);", "echo \"</pre>\";"],
+    "description": ""
+  },
+  "try catch": {
+    "prefix": "tryc",
     "body": [
-      "echo \"<pre>\";",
-      "print_r($0);",
-      "echo \"</pre>\";"
+      "try {",
+      "  $0",
+      "} catch (Exception \\$ex) {",
+      "  echo \"Error: {\\$ex->getMessage()}<br>\";",
+      "}"
     ],
-    "description": "print array"
+    "description": ""
   }
 }
