@@ -14,5 +14,10 @@
       "}"
     ],
     "description": ""
+  },
+  "function": {
+    "prefix": "func",
+    "body": ["function $name($$parameter) {", "  $0", "}"],
+    "description": "function"
   }
 }
