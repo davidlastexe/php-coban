@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../opt/lampp/htdocs/manager_course"
+		},
+		{
+			"path": "../../opt/lampp/htdocs/manager_coursee"
 		}
 	],
   "settings": {}
