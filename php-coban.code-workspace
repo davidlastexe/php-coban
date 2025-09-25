@@ -4,10 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../../opt/lampp/htdocs/manager_course"
+			"path": "/opt/lampp/htdocs/dektphp-bt"
 		},
 		{
-			"path": "../../opt/lampp/htdocs/manager_coursee"
+			"path": "/opt/lampp/htdocs/dektphp"
 		}
 	],
   "settings": {}
