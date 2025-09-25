@@ -1,0 +1,41 @@
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+  font-weight: bold;
+}
+.block {
+  margin-bottom: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #015294;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+a[name="btnBack"] {
+  background-color: #015294;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
